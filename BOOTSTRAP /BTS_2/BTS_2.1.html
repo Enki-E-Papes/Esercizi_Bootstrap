@@ -2,11 +2,16 @@
 <html>
 
 <head>
-    <title>Page with Bootstrap Grid Layout</title>
+    <title>Pagina Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <style>
         .container {
             margin-top: 20px;
+        }
+
+        .bg-custom {
+            background-color: #ff3410;
+            font-size: xx-large;
         }
     </style>
 </head>
@@ -15,32 +20,63 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <ol> 
+                <ol>
                     <h4>Bootstrap Grid Layout Domande</h4>
-                    <li>Qual è la dimensione del testo di default di  bootstrap?</li>
-                    <li>Qual è il font di default di  bootstrap?</li>
+                    <li>Qual è la dimensione del testo di default di bootstrap?</li>
+                    <li>Qual è il font di default di bootstrap?</li>
                     <li>Quali sono il margine superiore e inferiore di un paragrafo?</li>
                     <li>Crea un div come segue usando opportunamente i tag dl blockquote abbr mark</li>
                 </ol>
-        </div><br><br><br><br><br><br><br>
-        <div class="row">
-            <div class="col">
-                <div>
-                    <div class="row">
-                        <div class="col">
-                            <h4>Bootstrap Grid Layout</h4>
-                            <p>La dimensione del testo di default di Bootstrap è di 16px.</p>
-                            <p>Il font di default di Bootstrap è "Helvetica Neue", Arial, sans-serif.</p>
-                            <p>Il margine superiore e inferiore di un paragrafo è di 1rem (16px).</p>
+            </div><br><br><br><br><br><br><br>
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <div class="row">
+                            <div class="col">
+                                <ol>
+                                    <h4>Bootstrap Grid Layout</h4>
+                                    <li>
+                                        <p>La dimensione del testo di default di Bootstrap è di 16px.</p>
+                                    </li>
+                                    <li>
+                                        <p>Il font di default di Bootstrap è "Helvetica Neue", Arial, sans-serif.</p>
+                                    </li>
+                                    <li>
+                                        <p>Il margine superiore e inferiore di un paragrafo è di 1rem (16px).</p>
+                                    </li>
+                                    <dl>
+                                        <li>
+                                            <dt>Definizione (dt): Definition Term</dt>
+                                        </li>
+                                        <dd>Definizione (dd): Definition Description</dd>
+                                    </dl>
+                                </ol>
+                            </div>
                         </div>
                     </div>
-                    <dl>
-                        <dt>Definition Term</dt>
-                        <dd>Definition Description</dd>
-                    </dl>
                 </div>
-        </div>
-    </div>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="bg-custom">
+                            <p class="font-weight-bold">Questo testo è in grassetto.</p>
+                            <p class="font-italic">Questo testo è in corsivo.</p>
+                            <p class="font-weight-light">Questo testo ha un carattere leggero.</p>
+                            <p class="text-center">Questo testo è centrato.</p>
+                            <p class="text-right">Questo testo è allineato a destra.</p>
+
+                            <ul class="list-inline">
+                                <li class="list-inline-item">Politica</li>
+                                <li class="list-inline-item">Coda di paglia</li>
+                                <li class="list-inline-item">Affollamento</li>
+                                <li class="list-inline-item">Persone rumorose</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 </body>
 
 </html>
